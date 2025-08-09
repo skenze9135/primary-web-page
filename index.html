@@ -93,11 +93,7 @@ body {
     width: 100%;
   }
 }
-.footer {
-  padding: 20px; /* Some padding */
-  text-align: center; /* Center text*/
-  background: #ddd; /* Grey background */
-}
+
 
 img {
 	border-radius: 8px;
@@ -120,6 +116,23 @@ img {
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
 }
+
+.site-footer {
+  background-color: #f8f8f8;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-designer {
+  font-size: 0.8em;
+  color: #777;
+}
 </style>
 </head>
 <body>
@@ -140,14 +153,10 @@ img {
   <div class="main1">
     <h2 align="center">what is Coffee ?</h2>
     <h5></h5>
-    <div id="fakeimg" style="height:200px;"><img src="6.png" width="35%" height="105%" hspace="235px" ></div><br> 		
+    <div id="fakeimg" style="height:200px;"><img src="6.png" width="35%" height="105%" hspace="250px" ></div><br> 		
     <p><i>Coffee</i> is a beverage brewed from roasted, ground coffee beans.</p>
 	<p>It  has a stimulating effect on humans, primarily due to its caffeine content, but <i>decaffeinated coffee</i> is also commercially available.</p>
-	<h3>More Text</h3>
-    <p>Lorem ipsum dolor sit ame.</p>
-    <div class="fakeimg" style="height:60px;">Image</div><br>
-    <div class="fakeimg" style="height:60px;">Image</div><br>
-    <div class="fakeimg" style="height:60px;">Image</div>
+	
   </div>
   <div class="main2">
     <h2 align="Center">What is tea ?</h2>
@@ -155,16 +164,18 @@ img {
     <div id="fakeimg" style="height:200px;"><img src="9.jpg" width="45%" height="100%" hspAce="160px" ></div><br>
     <p><i>Tea</i> is an aromatic beverage prepared by pouring hot or boiling water over cured or fresh leaves of Camellia sinensis(tea shrub).</p>
     <p>There are many types of tea; some have a cooling, slightly bitter, and astringent flavour, while others have profiles that include sweet, nutty, floral, or grassy notes. Tea has a stimulating effect in humans, primarily due to its caffeine content.</p>
-    <h5>Title description, Sep 2, 2017</h5>
-    <div class="fakeimg" style="height:200px;">Image</div>
-    <p>Some text..</p>
-    <p></p>
+   
   </div>
 </div>
 
-<div class="footer">
-  <h2>Footer</h2>
-</div>
+<footer class="site-footer">
+  <div class="footer-content">
+    <p>&copy; 2025 skenz. All rights reserved.</p>
+    <div class="footer-designer">
+      Designed by: SKENZ</a>
+    </div>
+  </div>
+</footer>
 
 </body>
 </html>
